@@ -1,51 +1,50 @@
-# React + Redux starter
+## PostIt
 
-This project includes a basic starter boilerplate for our React + Redux +
-React Router projects, using webpack as a build system and babel for
-transpilation.
+PostIt is a simple application that allows friends and colleagues create groups for notifications. This way one person can post notifications to everyone by sending a message once. It is built with NodeJS, Express and Firebase as it's database. Source code employs ES6 and ES7 syntax traspiled down to ES5 using Babel.
 
-## Getting Started
+### Key Application Features
 
+A created user can perform the following: - Create an account - Login with Google account - Manage profile - Edit profile information - Set profile picture - Users should be able to create groups of friends with each person confirming their participation in the group - Users should be able to send messages to all their friends or to different groups they belong to (anyone can send a message to the group) - Users should be able to add friends within the applicatio. - Logout.
 
-```
-npm install
-npm run dev
-```
+In addition to the general user functions:
+- Send messages to memebers in groups.
+- Send text messages to memebers in groups.
+- Authentication: Users are authenticated and validated using Firebase Authentication service.
 
-Browse to `http://localhost:9000`.
+### Development
 
-## Development
+This application was developed using NodeJs with express for routing. firebase was used for persisting data.
 
-```
-npm run dev
-```
+The frontend was built with the react and flux framework.
 
-This will start a webpack dev server with hot reloading at
-`http://localhost:9000`.
+### Installation
 
-## Production
+Clone the project repository.
+Change directory into the postit directory.
+Run npm install to install the dependencies in the package.json file.
+Usage
 
-```
-npm run build
-```
+Login, Sign Up and start creating groups
 
-This will build and uglify files to `dist/` ready to push to production.
+### Technologies Used
 
-## Includes
+- JavaScript (ES6)
+- Node.js
+- Express
+- React-Redux
+- Material Design CSS Framework
+- SASS/SCSS.
+- Firebase
 
-* [react](https://github.com/facebook/react) - for rendering
-* [react-router](https://github.com/reactjs/react-router) - for routing
-* [redux](https://github.com/reactjs/redux) - for state management
-* [react-redux](https://github.com/reactjs/react-redux) - for react + redux
-* [redux-actions](https://github.com/acdlite/redux-actions) - for FSA redux actions
-* [redux-logger](https://github.com/theaqua/redux-logger) - for state logging
-* [redux-thunk](https://github.com/gaearon/redux-thunk) - for async actions
-* [react-hot-loader](https://github.com/gaearon/react-hot-loader) - for them hot loadz
-* [webpack](https://github.com/webpack/webpack) - to build it
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server) - to see it
-* [babel](https://github.com/babel/babel) - to transpile es6
-* [mocha](https://github.com/mochajs/mocha) + [must](https://github.com/moll/js-must) - for testing
+### Contributing
 
-## Todos
+Fork this repositry to your account.
+Create your feature branch: git checkout -b new-feature
+Commit your changes: git commit -m "did something"
+Push to the remote branch: git push origin new-feature
+Open a pull request.
+Licence
 
-* Configure react-devtools
+ISC
+
+#### Copyright (c) 2017 Ibrahim Usman
